@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">contact</a></li>
+    </ul>
+</nav>
+<!-- home section  -->
+<section class="home-section active">
+    <h1 class="hero-heading">hello, i am <br>Nitin <br><span id="title">Frontend Developer</span></h1>
+   
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/nitin-chauhan-92258b226" target="_blank"><i class="uil uil-linkedin-alt"></i> </a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram"></i></a>
+    <a href="https://github.com/nitin6189" target="_blank"><i class="uil uil-github"></i></a>
+    
+    
+    </div>
+  <img src="img/my.jpg" class="hero-img" alt="">
+</section>
+
+<!-- project section  -->
+<section class="project-section">
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="img/project-1.png" width="500px" alt="" class="project-img">
+            <div class="project-content">
+                <h1 class="project-title">FORM VALIDATION</h1>
+                <p class="project-info">A minimal and Interative form validation</p>
+                <div class="project-btn-grp">
+                    <button class="github-btn"><a href="https://github.com/nitin6189/Form-Validation.git"> Github Repo</a></button>
+                    <button class="live-btn">See Live</button>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/project-2.png" width="500px" alt="" class="project-img">
+            <div class="project-content">
+                <h1 class="project-title">Word Counter</h1>
+                <p class="project-info">A minimal word counter</p>
+                <div class="project-btn-grp">
+                    <button class="github-btn"><a href="https://github.com/nitin6189/Word-Counter.git">Github Repo</a></button>
+                    <button class="live-btn">See Live</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+<!-- about section  -->
+<section class="about-section">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="img/my_photo.jpg" class="about-img" alt="">
+            <button class="download-cv">download cv</button>
+        </div>
+        <p class="about-info">A recent Computer Science graduate and self-motivated and hardworking fresher seeking 
+            an opportunity to work in a challenging environment to prove my skills and utilize my 
+            knowledge & intelligence in the growth of the organization.</p>
+    </div>
+
+    <!-- skills -->
+    <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="img/html.png" alt="">
+                <div class="skill-level">HTML5</div>
+                
+            </div>
+            <div class="skill-card">
+                <img src="img/css.png" alt="">
+                <div class="skill-level">CSS3</div>
+              
+            </div>
+            <div class="skill-card">
+                <img src="img/js.png" alt="">
+                <div class="skill-level">JS</div>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- timeline -->
+    <div class="timeline">
+<h1 class="heading">Education and Experience</h1>
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">2014-2015</h1>
+        <h3>Board of High School (10th)</h3>
+        <p class="card-detail">Percentage:74%</p>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">2016-2017</h1>
+        <h3>Board of Intermediate (12th)</h3>
+        <p class="card-detail">Percentage:62%</p>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title">2017-2021</h1>
+        <h3>B.Sc. Computer Science (University of Delhi)</h3>
+        <p class="card-detail">ATMA RAM SANTAN DHARMA COLEGE CGPA:6.167</p>
+    </div>
+</div>
+ 
+
+    </div>
+</section>
+
+<!-- contact section  -->
+<section class="contact-section">
+    <form action="" class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+
+    <!-- map  -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163741622!2d76.81306442366602!3d28.64727993557044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1659453407211!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+
+   <script src="app.js"></script> 
+</body>
+</html>
